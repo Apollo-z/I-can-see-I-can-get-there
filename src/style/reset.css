@@ -1,0 +1,82 @@
+body, p, h1, h2, h3, ul, ol, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 16px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+img {
+  /* 更改对齐方式 */
+  vertical-align: top;
+}
+
+i {
+  font-style: normal;
+}
+
+/* 重置按钮样式 */
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  text-transform: none;
+}
+
+/* 重置按钮的内边距和字体大小 */
+button::-moz-focus-inner,
+button::-webkit-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* 重置label样式 */
+label {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: normal;
+  color: inherit;
+}
+
+/* 自定义滚动条样式： */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0003;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background-color: #0000004d;
+}
